@@ -5,7 +5,7 @@ const createHttpsServer = require('https').createServer;
 const app = express();
 const port = 3001;
 const host = '0.0.0.0';
-const node_env = 'production';
+const node_env = 'development';
 
 app.use(express.json());
 
